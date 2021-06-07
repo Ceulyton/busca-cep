@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <title>Busca - Cep</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#logo">
+            <img src="./assets/logo.svg" alt="logo">
+        </a>
+    </header>
+        <main>
+            <section class="form">
+
+              <div class="cep-form">
+                <div>
+					<input id="cep" type="number" placeholder="CEP"/>
+				</div>
+              </div>
+
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="Logradouro" id="logradouro" readonly>
+                    </div>
+                    
+                    <div>
+                        <input type="text" placeholder="Bairro" id="bairro" readonly>
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Localidade" id="localidade" readonly>
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="UF" id="uf" readonly>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="fixar"><p>Busca.Cep</p></footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
